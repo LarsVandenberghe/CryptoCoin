@@ -40,9 +40,6 @@ class CryptoCoin(QMainWindow, GUI_CryptoCoin.Ui_MainWindow):
         
         self.widget_close.hide()    
         
-        self.iota_wallet = 24.4 #MIOTA
-        self.ltc_wallet = 0.05418583
-        
         self.Updater()
         
         self.timer = QTimer(self)
@@ -65,14 +62,10 @@ class CryptoCoin(QMainWindow, GUI_CryptoCoin.Ui_MainWindow):
             self.iota_updated.setText(str(self.IOTA.last_updated))
             self.Calculate_IOTA_Value()
             self.Calculate_LTC_Value()
-            self.Calculate_Total()
             
         except:
             print("No connection.")
 
-    def Calculate_Total(self):
-        total = self.IOTA.price_eur*self.iota_wallet + self.LTC.price_eur*self.ltc_wallet
-        self.total_eur.setText("€ {:.2f} / 103.60".format(int(total*100)/100))
 
     def Calculate_IOTA_Value(self):
         val = "€ {:.2f} (".format(int(self.IOTA.price_eur*100)/100)
