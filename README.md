@@ -30,6 +30,7 @@ Installing PyQt4:
   Open cmd (Command Shell) and type 'python --version'. Make sure you have Python 3.5.
   Now navigate to the directory where you downloaded PyQt4. Use: 'cd "C:\Users\SOME\DIRECTORY"'.
   If you are in the directory where the .whl file is stored, type: 'python -m pip install <name of the .whl>'.
+  Once the wheel is installed, you can delete the python installer and the .whl file.
   
   * summary:
      - python --version
@@ -41,4 +42,13 @@ Installing PyQt4:
      - cd "C:\Users\ME\Downloads"
      - python -m pip install PyQt4-4.11.4-cp35-none-win_amd64.whl
   
+Running the App:
+-------------
+
+  * To run the app, I advise you to make a new shortcut. To do this you need to go to the python installation directory. If you clicked on "Install Now" it will be something like this: "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35".
+  In that directory there should be a file called: "pythonw.exe". That makes the following path: "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35\pythonw.exe".
   
+  * Right click the "CryptoCoin.py" file and create a shortcut. Now rightclick the shortcut and edit the propperties. Add the pythonw.exe path infront of the Target line. It should look something like this: <br>
+  
+  "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35\pythonw.exe" "C:\Users\ME\Projects\CryptoCoin Widget\CryptoCoin.py"
+   
