@@ -8,7 +8,7 @@ Compiled executable:
 =======
 For easy installation, download the CryptoCoin.zip file. Extract the file and open it. (Don't delete any files extracted!)
 * for windows 64-bit
-    https://github.com/XTraLars/CryptoCoin/blob/master/CryptoCoin.zip
+    https://github.com/XTraLars/CryptoCoin/releases/download/Windows/CryptoCoin.zip
 
 
 Source code installation guide:
