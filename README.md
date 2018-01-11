@@ -7,6 +7,7 @@ This version only works in python 3 with pyqt4.
 Compiled executable:
 =======
 For easy installation, download the CryptoCoin.zip file. Extract the file and open it. (Don't delete any files extracted!)
+https://github.com/XTraLars/CryptoCoin/blob/master/CryptoCoin.zip
 
 
 Source code installation guide:
