@@ -33,7 +33,7 @@ Installing PyQt4:
   
   * summary:
      - python --version
-     - cd "C:\Users\SOME\DIRECTORY"
+     - cd "C:\Users\DIRECTORY\WHERE\WHL\IS\STORED"
      - python -m pip install <name of the .whl>
   
   * example:
