@@ -8,4 +8,7 @@ This version only works in python 3 with pyqt4.
   
   
   PyQt4 64-bit:
+  http://www.silx.org/pub/wheelhouse/PyQt4-4.11.4-cp35-none-win_amd64.whl
   
+  PyQt4 32-bit:
+  http://www.silx.org/pub/wheelhouse/PyQt4-4.11.4-cp35-none-win32.whl
