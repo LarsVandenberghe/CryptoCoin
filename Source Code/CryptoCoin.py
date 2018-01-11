@@ -214,17 +214,17 @@ class CryptoCoin(QMainWindow, GUI_CryptoCoin.Ui_MainWindow):
         self.settings["slt1_value"] = float(self.slt1_bal.text())
         self.settings["slt2_coin"] = self.slt2_cb.currentText()
         self.settings["slt2_value"] = float(self.slt2_bal.text())
+        self.showWindow = False
+        self.widget_close.hide()
+        file = open(os.path.realpath(__file__).replace("CryptoCoin.py", "saved.json"), "w")
+        file.write(json.dumps(self.settings, sort_keys=True, indent=4, separators=(',', ': ')))
+        file.close()
         self.reloadSlots()
         self.slt1_updated.setText(str(self.SLOT1.last_updated))
         self.slt2_updated.setText(str(self.SLOT2.last_updated))
         self.Calculate_SLOT1_Value()
         self.Calculate_SLOT2_Value()
         self.Calculate_Total()
-        file = open(os.path.realpath(__file__).replace("CryptoCoin.py", "saved.json"), "w")
-        file.write(json.dumps(self.settings, sort_keys=True, indent=4, separators=(',', ': ')))
-        file.close()
-        self.showWindow = False
-        self.widget_close.hide()
         
     def exitApp(self):
         sys.exit()
