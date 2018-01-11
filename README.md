@@ -4,6 +4,14 @@ CryptoCoin
 This is a python widget displaying the latest values of crypto currencies.
 This version only works in python 3 with pyqt4.
 
+Compiled executable:
+=======
+
+
+
+Source code installation guide:
+=======
+
 Download links: python + dependency:
 -------------
 
