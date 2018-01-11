@@ -17,5 +17,5 @@ python installation guide:
   Download PyQt4 32-bit:
   http://www.silx.org/pub/wheelhouse/PyQt4-4.11.4-cp35-none-win32.whl
   
-  * You don't have any python installation at all:
+  * You don't have any python installation at all::
   Once downloaded, start installing python. For the sake of making it easy, check "Add Python 3.5 to PATH" and click on install now
