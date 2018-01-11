@@ -39,16 +39,21 @@ Installing PyQt4:
   
   * example:
      - python --version
-     - cd "C:\Users\ME\Downloads"
+     - cd "C:\Users\MYUSERNAME\Downloads"
      - python -m pip install PyQt4-4.11.4-cp35-none-win_amd64.whl
   
 Running the App:
 -------------
 
-  * To run the app, I advise you to make a new shortcut. To do this you need to go to the python installation directory. If you clicked on "Install Now" it will be something like this: "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35".
+  * Download the Zip and extract the files. Place the folder on a location you like. To run the app, I advise you to make a new shortcut. To do this you need to go to the python installation directory. If you clicked on "Install Now" it will be something like this: "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35".
   In that directory there should be a file called: "pythonw.exe". That makes the following path: "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35\pythonw.exe".
   
   * Right click the "CryptoCoin.py" file and create a shortcut. Now rightclick the shortcut and edit the propperties. Add the pythonw.exe path infront of the Target line. It should look something like this: <br>
   
-  "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35\pythonw.exe" "C:\Users\ME\Projects\CryptoCoin Widget\CryptoCoin.py"
+  "C:\Users\MYUSERNAME\AppData\Local\Programs\Python\Python35\pythonw.exe" "C:\Users\MYUSERNAME\Projects\CryptoCoin Widget\CryptoCoin.py"
    
+Start the App with your computer:
+-------------
+
+Copy the shortcut and place it in your startup folder.
+"C:\Users\MYUSERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
