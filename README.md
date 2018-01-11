@@ -8,19 +8,19 @@ Download links: python + dependency:
 -------------
 
 * 32-bit
-  Download Python3.5
-  https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe
+  - Download Python3.5
+    https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe
   
-  Download PyQt4:
-  http://www.silx.org/pub/wheelhouse/PyQt4-4.11.4-cp35-none-win32.whl
+  - Download PyQt4:
+    http://www.silx.org/pub/wheelhouse/PyQt4-4.11.4-cp35-none-win32.whl
 
 
 * 64-bit
-  Download python3.5
-  https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
+  - Download python3.5
+    https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
 
-  Download PyQt4:
-  http://www.silx.org/pub/wheelhouse/PyQt4-4.11.4-cp35-none-win_amd64.whl
+  - Download PyQt4:
+    http://www.silx.org/pub/wheelhouse/PyQt4-4.11.4-cp35-none-win_amd64.whl
   
 
   
